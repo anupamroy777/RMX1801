@@ -32,7 +32,7 @@ make -j$(nproc --all) O=out \
 
 function zupload()
 {
-git clone --depth=1 https://github.com/weixy56/AnyKernel33.git AnyKernel
+git clone --depth=1 https://gitlab.com/anupamroy777/AnyKernel3.git AnyKernel
 cp out/arch/arm64/boot/Image.gz-dtb AnyKernel
 cd AnyKernel
 zip -r9 ThunderStorm-lto-KERNEL-RMX1801.zip *
